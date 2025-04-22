@@ -1,14 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
 const poppinsFont = Poppins({
   weight: ["400", "600", "700"],
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
@@ -24,11 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body
-        className={`${poppinsFont.className}`}
-      >
-        {children}
-      </body>
+      <body className={`${poppinsFont.className}`}>{children}</body>
     </html>
   );
 }
