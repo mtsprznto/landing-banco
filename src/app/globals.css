@@ -5,6 +5,12 @@
 :root {
   --background: #000000;
   --foreground: #e2dada;
+  --color-primary: #fff;
+  --color-primaryDark: rgba(255, 255, 255, 0.7);
+  --color-secondary: #6DE4E8;
+  --radialBlack: linear-gradient(225.95deg, #ffffff 0%, #6d6d6d 0%, #11101d 91.61%);
+  --blueRadial: linear-gradient(90deg, #6de4e8 0%, rgba(0, 178, 218, 0.6) 95.83%);
+  --blueLigh: linear-gradient(90deg, #6de4e8 0%, rgba(255, 255, 255, 0.86) 95.83%)
 }
 
 @theme inline {
@@ -12,17 +18,33 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-primary: #fff;
+  --color-primaryDark: rgba(255, 255, 255, 0.7);
+  --color-secondary: #6DE4E8;
+  --radialBlack: linear-gradient(225.95deg, #ffffff 0%, #6d6d6d 0%, #11101d 91.61%);
+  --blueRadial: linear-gradient(90deg, #6de4e8 0%, rgba(0, 178, 218, 0.6) 95.83%);
+  --blueLigh: linear-gradient(90deg, #6de4e8 0%, rgba(255, 255, 255, 0.86) 95.83%)
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --color-primary: #fff;
+    --color-primaryDark: rgba(255, 255, 255, 0.7);
+    ---color-primary: #fff;
+    --color-primaryDark: rgba(255, 255, 255, 0.7);
+    --color-secondary: #6DE4E8;
+    --radialBlack: linear-gradient(225.95deg, #ffffff 0%, #6d6d6d 0%, #11101d 91.61%);
+    --blueRadial: linear-gradient(90deg, #6de4e8 0%, rgba(0, 178, 218, 0.6) 95.83%);
+    --blueLigh: linear-gradient(90deg, #6de4e8 0%, rgba(255, 255, 255, 0.86) 95.83%)
   }
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -62,4 +84,3 @@ body {
     transform: translate(-100%);
   }
 }
-
