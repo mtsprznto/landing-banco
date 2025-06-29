@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏦 Landing Page Bancaria
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-First, run the development server:
+Bienvenido al repositorio de la landing page de nuestro banco. Este proyecto ha sido desarrollado con Next.js 14, ofreciendo un rendimiento óptimo y una excelente experiencia de usuario.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Características Principales
+
+- **Diseño Moderno y Responsivo** - Se adapta perfectamente a cualquier dispositivo
+- **Carga Rápida** - Gracias a la generación estática de Next.js
+- **Tipografía Optimizada** - Uso de `next/font` para un rendimiento óptimo
+- **Animaciones Suaves** - Mejora la experiencia de usuario
+- **SEO Mejorado** - Configuración óptima para motores de búsqueda
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Framework**: Next.js 14 (App Router)
+- **Lenguaje**: TypeScript
+- **Estilos**: Tailwind CSS
+- **Gestión de Paquetes**: npm / yarn / pnpm / bun
+- **Despliegue**: Vercel (Recomendado)
+
+## 🚀 Empezando
+
+### Requisitos Previos
+
+- Node.js 18.0 o superior
+- npm, yarn, pnpm o bun
+- Git
+
+### Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/landing-banco.git
+   cd landing-banco
+   ```
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+   # o
+   yarn install
+   # o
+   pnpm install
+   # o
+   bun install
+   ```
+
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   # o
+   yarn dev
+   # o
+   pnpm dev
+   # o
+   bun dev
+   ```
+
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
+
+## 🏗️ Estructura del Proyecto
+
+```
+.
+├── app/                    # Páginas y rutas
+├── components/             # Componentes reutilizables
+├── public/                 # Archivos estáticos
+├── styles/                 # Estilos globales
+├── types/                  # Tipos de TypeScript
+└── README.md               # Este archivo
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌍 Despliegue
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+El despliegue más sencillo es a través de [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), la plataforma de los creadores de Next.js.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[![Deploy with Vercel](https://vercel.com/button)](https://verdeploy.com)
 
-## Learn More
+## 🤝 Contribución
 
-To learn more about Next.js, take a look at the following resources:
+Las contribuciones son bienvenidas. Por favor, lee nuestras [pautas de contribución](CONTRIBUTING.md) antes de enviar un pull request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 Licencia
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
 
-## Deploy on Vercel
+## 📞 Contacto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+¿Tienes preguntas? No dudes en [abrir un issue](https://github.com/tu-usuario/landing-banco/issues) o contactar al equipo de desarrollo.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Desarrollado con ❤️ por [Tu Nombre o Empresa]
